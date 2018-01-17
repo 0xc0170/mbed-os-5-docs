@@ -115,6 +115,8 @@ There are a number of CI systems available. Which CI tests we run against a part
 
 Time: 1 day
 
+The CI workflow can be found [here](tbd)
+
 ##### Work needed
 
 The pull request requires additional work due to failed tests, changes requested.
