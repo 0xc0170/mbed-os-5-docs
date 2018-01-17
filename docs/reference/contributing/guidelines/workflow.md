@@ -36,7 +36,7 @@ Please see the [code contributions chapter](/docs/v5.7/reference/guidelines.html
 
 Pull requests on GitHub have to meet the following requirements to keep the code and commit history clean:
 
-- Commits should always contain a proper description of their content. Start with a concise and sensible one-line description. Then, elaborate on reasoning of the choices made, descriptions for reviewers and other information that might otherwise be lost.
+- Commits should always contain a proper description of their content. Start with a concise and sensible one-line description. Then, elaborate on reasoning of the choices made, descriptions for reviewers and other information that might otherwise be lost.
 - You should always write commits to allow publication, so they can never contain confidential information, reference private documents, links to intranet locations or rude language.
 - Each commit should be the minimum self-contained commit for a change. A commit should always result in a new state that is again in a compilable state. You should (if possible) split large changes into logical smaller commits that help reviewers follow the reasoning behind the full change.
 - Commits should follow [Chris Beam’s seven rules of great commit messages](http://chris.beams.io/posts/git-commit#seven-rules):
@@ -53,14 +53,17 @@ Pull requests on GitHub have to meet the following requirements to keep the code
 
 #### Mbed OS maintainers
 
-The maintainers are a small group of Mbed OS engineers who are responsible for the Mbed OS codebase. Their primary role is to progress contributions, both internal and external, from the initial pull request state through to released code. They:
+The maintainers are a small group of Mbed OS engineers who are responsible for the Mbed OS codebase. Their primary role is to progress contributions, both internal and external, from the initial pull request state through to released code. 
+
+Responsibilities:
 
 1. Check for CLA compliance.
-2. Ensure the relevant stakeholders review pull requests.
-3. Guide contributors both technically and procedurally.
-4. Run pull requests through the CI systems.
-5. Merge pull requests into the requested branches.
-6. Make periodic patch and feature releases.
+1. Ensure the relevant stakeholders review pull requests.
+1. Guide contributors both technically and procedurally.
+1. Run pull requests through the CI systems.
+1. Put label version.
+1. Merge pull requests into the requested branches.
+1. Make periodic patch and feature releases.
 
 The current maintainers are:
 
@@ -82,11 +85,21 @@ Labels that the Mbed OS maintainers add to a pull request represent the pull req
 
 ##### Reviews
 
-All pull requests must be reviewed. The Mbed OS maintainers determine the most suitable person to review the pull request and tag that person accordingly. If a pull request requires a review from partners, the maintainers tag the corresponding GitHub group instead.
+All pull requests must be reviewed. The mbed CI bot determine the most suitable person to review the pull request and tag that person accordingly.
+
+Time: 3 days
 
 ##### The CI (Continuous Integration) testing
 
 There are a number of CI systems available. Which CI tests we run against a particular pull request depends on the effect of that pull request to the code base. Irrespective of which CIs tests run, Mbed OS has an all green policy, meaning that all the CI jobs that are triggered must pass before we merge the pull request.
+
+Time: 1 day
+
+##### Work needed
+
+If changes are requested or CI reports failures, the pull request requires additional work.
+
+Time: 3 day
 
 ##### Releases
 
