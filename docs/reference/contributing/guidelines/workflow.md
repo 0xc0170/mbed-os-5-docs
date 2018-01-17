@@ -80,6 +80,7 @@ The current maintainers are:
 * Jimmy Brisson (theotherjimmy).
 * Shrikant Tudavekar (studavekar).
 * Sam Grove (sg-).
+* Cruz Monrreal (cmonr).
 
 #### Stakeholders
 
