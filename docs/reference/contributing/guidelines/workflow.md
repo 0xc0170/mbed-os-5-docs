@@ -28,6 +28,14 @@ A member of the Mbed team must verify bug fixes before we pull the fixes into th
 
 The last line in your commit message description should say “Fixes #deadbeef”, where “deadbeef” is the issue number in GitHub. This allows GitHub to automatically close the issue when the commit is merged into the default branch.
 
+#### Features
+
+Any feature should be implemented on the branch in mbed OS repository first. 
+
+Each feature has a tech lead. This person is responsible for:
+- rebased often to track master development
+- shall review any addition to the feature branch (approval required by the feature owner or person assigned to do instead)
+
 #### Further reading
 
 Please see the [code contributions chapter](/docs/v5.7/reference/guidelines.html#style) for the guidelines to GitHub pull requests and the coding style guide.
@@ -75,13 +83,12 @@ The current maintainers are:
 
 #### Stakeholders
 
-They are responsible for a module within Mbed OS.
+They are responsible for a specific mbed OS module or feature.
 
 Responsibilities:
 
 1. Review pull request and coordinate reviews within the team
 1. Ensure the version label is correct
-
 
 #### GitHub pull requests workflow
 
