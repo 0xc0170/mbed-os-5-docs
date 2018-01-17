@@ -73,6 +73,16 @@ The current maintainers are:
 * Shrikant Tudavekar (studavekar).
 * Sam Grove (sg-).
 
+#### Stakeholders
+
+They are responsible for a module within Mbed OS.
+
+Responsibilities:
+
+1. Review pull request and coordinate reviews within the team
+1. Ensure the version label is correct
+
+
 #### GitHub pull requests workflow
 
 Each pull request goes through the following workflow:
