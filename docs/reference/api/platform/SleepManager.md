@@ -24,6 +24,8 @@ void main()
 
 <span class="notes">**Note:** Mbed OS handles sleep for you automatically when you call any of the wait functions. You do not need to call `sleep()` directly unless you are overriding the default sleep handling of Mbed OS.</span>
 
+The default idle loop locks deep sleep if tickless mode (`MBED_TICKLESS`) is not supported by a target. 
+
 ### Sleep modes
 
 There are two available sleep modes:
