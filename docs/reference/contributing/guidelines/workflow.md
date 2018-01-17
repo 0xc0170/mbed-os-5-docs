@@ -100,6 +100,8 @@ Each pull request goes through the following workflow:
 
 Labels that the Mbed OS maintainers add to a pull request represent the pull request workflow states. The Mbed OS maintainers are responsible for moving pull requests through the workflow states.
 
+Each state is time boxed. In most cases, this should be sufficient time to move to an another state.
+
 ##### Reviews
 
 All pull requests must be reviewed. The mbed CI bot determine the most suitable person to review the pull request and tag that person accordingly.
@@ -114,7 +116,7 @@ Time: 1 day
 
 ##### Work needed
 
-If changes are requested or CI reports failures, the pull request requires additional work.
+The pull request requires additional work due to failed tests, changes requested.
 
 Time: 3 day
 
