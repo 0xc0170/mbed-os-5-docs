@@ -42,7 +42,7 @@ Pull requests on GitHub have to meet the following requirements to keep the code
 - Because we use GitHub and explicit CLAs, special commit tags that other projects may use, such as “Reviewed-by”, or “Signed-off-by”, are redundant and should be omitted. GitHub tracks who reviewed what and when, and our stack of signed CLAs shows us who has agreed to our development contribution agreement.
 - Prefixing your commit message with a domain is acceptable, and we recommend doing so when it makes sense. However, prefixing one's domain with the name of the repo is not useful. For example, making a commit entitled "mbed-drivers: Fix doppelwidget frobulation" to the `mbed-drivers` repo is not acceptable because it is already understood that the commit applies to `mbed-drivers`. Renaming the commit to "doppelwidget: Fix frobulation" would be better, if we presume that "doppelwidget" is a meaningful domain for changes, because it communicates that the change applies to the doppelwidget area of `mbed-drivers`.
 - All new features and enhancements require documentation, tests and user guides for us to accept them. Please link each pull request to all relevant documentation and testing pull requests.
-- a pull request shall fix a bug, add a feature or refactor but not a mixture
+- Pull requests shall fix a bug, add a feature or refactor but not a mixture
 
 #### Mbed OS maintainers
 
@@ -90,7 +90,7 @@ Each state is time boxed. In most cases, this should be sufficient time to move 
 
 ##### Reviews
 
-All pull requests must be reviewed. The mbed CI bot determine the most suitable person to review the pull request and tag that person accordingly.
+All pull requests must be reviewed. The mbed CI bot determines the most suitable person to review the pull request and tags that person accordingly.
 
 Time: 3 days
 
@@ -106,7 +106,7 @@ The CI workflow can be found [here](tbd)
 
 The pull request requires additional work due to failed tests, changes requested.
 
-Time: 3 day
+Time: 3 days
 
 ##### Releases
 
