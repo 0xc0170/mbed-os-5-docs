@@ -92,13 +92,13 @@ Each state is time boxed. In most cases, this should be sufficient time to move 
 
 All pull requests must be reviewed. The mbed CI bot determines the most suitable person to review the pull request and tags that person accordingly.
 
-Time: 3 days
+Time: 3 days for reviewers to leave feedback since the label was added
 
 ##### The CI (Continuous Integration) testing
 
 There are a number of CI systems available. Which CI tests we run against a particular pull request depends on the effect of that pull request to the code base. Irrespective of which CIs tests run, Mbed OS has an all green policy, meaning that all the CI jobs that are triggered must pass before we merge the pull request.
 
-Time: 1 day
+Time: 1 day for CI to complete and report back results
 
 The CI workflow can be found [here](tbd)
 
@@ -106,7 +106,7 @@ The CI workflow can be found [here](tbd)
 
 The pull request requires additional work due to failed tests, changes requested.
 
-Time: 3 days
+Time: 3 days to respond to the review comments
 
 ##### Releases
 
