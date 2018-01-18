@@ -12,29 +12,19 @@ Patch contributions can only be accepted through GitHub by creating a pull reque
 
 Please create separate pull requests for each concern; each pull request should have a clear unity of purpose. In particular, separate code formatting and style changes from functional changes. This makes each patch’s true contribution clearer and therefore quicker and easier to review.
 
-#### Reporting and fixing bugs
+##### Reporting bugs
 
 Before submitting a bug report or a bug fix, please [discuss it on the forums](https://os.mbed.com/forum/bugs-suggestions/) to avoid duplication of work, as we or others might be working on it already.
 
-##### Bug reports (issues) on GitHub
-
 All Mbed OS is on GitHub; please use GitHub's [issues mechanism](https://guides.github.com/features/issues/) to open a bug report directly against the relevant GitHub repository.
 
-##### Bug fixes
+##### Fixing bugs
 
 Please refer to the [code contributions chapter](/docs/v5.7/reference/guidelines.html#style).
 
 A member of the Mbed team must verify bug fixes before we pull the fixes into the main branch. You must therefore use GitHub to fork the repo and then submit a pull request with your changes.
 
 The last line in your commit message description should say “Fixes #deadbeef”, where “deadbeef” is the issue number in GitHub. This allows GitHub to automatically close the issue when the commit is merged into the default branch.
-
-#### Features
-
-Any feature should be implemented on the branch in mbed OS repository first. 
-
-Each feature has a tech lead. This person is responsible for:
-- rebased often to track master development
-- shall review any addition to the feature branch (approval required by the feature owner or person assigned to do instead)
 
 #### Further reading
 
