@@ -24,6 +24,15 @@ A member of the Mbed team must verify bug fixes before we pull the fixes into th
 
 The last line in your commit message description should say “Fixes #deadbeef”, where “deadbeef” is the issue number in GitHub. This allows GitHub to automatically close the issue when the commit is merged into the default branch.
 
+##### Features
+
+New features should initially be implemented on a separate branch in the Mbed OS repository. The naming convention for a feature branch is: "feature-".
+
+Each feature has a tech lead. This person is responsible for:
+
+- rebasing often to track master development
+- reviewing any addition to the feature branch (approval required by the feature owner or a person assigned to do instead)
+
 #### Guidelines for GitHub pull requests
 
 Pull requests on GitHub have to meet the following requirements to keep the code and commit history clean:
