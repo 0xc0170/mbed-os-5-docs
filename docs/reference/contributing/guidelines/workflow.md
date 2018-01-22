@@ -38,8 +38,6 @@ Responsibilities:
 
 All code changes and additions to Mbed OS are handled through GitHub. If you want to contribute, either by adding features or by fixing bugs, please follow the guidelines for [new features](#contributing-new-features-to-mbed-os) and [bugs](#reporting-and-fixing-bugs). In both cases, please follow the [code style guide and GitHub pull request guidelines](/docs/v5.7/reference/guidelines.html#style)</a>. Please also read the [CLA](/docs/v5.7/reference/guidelines.html#cla) guidelines because we will immediately close pull requests submitted without a CLA.
 
-#### Contributing new features to Mbed OS
-
 Before contributing an enhancement (new feature, new port and so on), please [discuss it on the forums](https://os.mbed.com/forum/bugs-suggestions/) to avoid duplication of work, as we or others might be working on a related feature.
 
 Patch contributions can only be accepted through GitHub by creating a pull request from forked versions of our repositories. This allows us to review the contributions in a user friendly and reliable way, under public scrutiny.
@@ -100,7 +98,7 @@ Each pull request goes through the following workflow:
 
 <span class="images">![](https://s3-us-west-2.amazonaws.com/mbed-os-docs-images/Workflow.png)<span>The workflow of merging a pull request</span></span>
 
-##### Pull request states
+#### Pull request states
 
 Labels that the Mbed OS maintainers add to a pull request represent the pull request workflow states. The Mbed OS maintainers are responsible for moving pull requests through the workflow states.
 
@@ -134,7 +132,7 @@ The release tag has the following format:
 
 *release-version: 5.f.p* - Where `f` is the feature release and `p` the patch release.
 
-##### Additional labels
+#### Additional labels
 
 We use many other labels to summarize the scope and effect of the changes.
 
