@@ -1,5 +1,39 @@
 ### Workflow
 
+#### Gatekeepers
+
+##### Mbed OS maintainers
+
+The maintainers are a small group of Mbed OS engineers who are responsible for the Mbed OS codebase. Their primary role is to progress contributions, both internal and external, from the initial pull request state through to released code. 
+
+Responsibilities:
+
+1. Check for CLA compliance.
+1. Ensure the relevant stakeholders review pull requests.
+1. Guide contributors both technically and procedurally.
+1. Run pull requests through the CI systems.
+1. Put label version.
+1. Merge pull requests into the requested branches.
+1. Make periodic patch and feature releases.
+
+The current maintainers are:
+
+* Anna Bridge (adbridge).
+* Martin Kojtal (0xc0170).
+* Jimmy Brisson (theotherjimmy).
+* Shrikant Tudavekar (studavekar).
+* Sam Grove (sg-).
+* Cruz Monrreal (cmonr).
+
+##### Stakeholders
+
+They are responsible for a specific mbed OS module or feature.
+
+Responsibilities:
+
+1. Review pull request and coordinate reviews within the team
+1. Ensure the version label is correct
+
 #### Contributions
 
 All code changes and additions to Mbed OS are handled through GitHub. If you want to contribute, either by adding features or by fixing bugs, please follow the guidelines for [new features](#contributing-new-features-to-mbed-os) and [bugs](#reporting-and-fixing-bugs). In both cases, please follow the [code style guide and GitHub pull request guidelines](/docs/v5.7/reference/guidelines.html#style)</a>. Please also read the [CLA](/docs/v5.7/reference/guidelines.html#cla) guidelines because we will immediately close pull requests submitted without a CLA.
@@ -59,38 +93,6 @@ Each feature has a tech lead. This person is responsible for:
 
 - rebasing often to track master development
 - reviewing any addition to the feature branch (approval required by the feature owner or a person assigned to do instead)
-
-#### Mbed OS maintainers
-
-The maintainers are a small group of Mbed OS engineers who are responsible for the Mbed OS codebase. Their primary role is to progress contributions, both internal and external, from the initial pull request state through to released code. 
-
-Responsibilities:
-
-1. Check for CLA compliance.
-1. Ensure the relevant stakeholders review pull requests.
-1. Guide contributors both technically and procedurally.
-1. Run pull requests through the CI systems.
-1. Put label version.
-1. Merge pull requests into the requested branches.
-1. Make periodic patch and feature releases.
-
-The current maintainers are:
-
-* Anna Bridge (adbridge).
-* Martin Kojtal (0xc0170).
-* Jimmy Brisson (theotherjimmy).
-* Shrikant Tudavekar (studavekar).
-* Sam Grove (sg-).
-* Cruz Monrreal (cmonr).
-
-#### Stakeholders
-
-They are responsible for a specific mbed OS module or feature.
-
-Responsibilities:
-
-1. Review pull request and coordinate reviews within the team
-1. Ensure the version label is correct
 
 #### GitHub pull requests workflow
 
