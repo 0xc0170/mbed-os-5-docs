@@ -18,27 +18,6 @@ Before submitting a bug report or a bug fix, please [discuss it on the forums](h
 
 All Mbed OS is on GitHub; please use GitHub's [issues mechanism](https://guides.github.com/features/issues/) to open a bug report directly against the relevant GitHub repository.
 
-#### Pull request categories
-
-##### Bugfixes
-
-The last line in your commit message description should say “Fixes #deadbeef”, where “deadbeef” is the issue number in GitHub. This allows GitHub to automatically close the issue when the commit is merged into the default branch.
-
-Every bugfix should contain a test to verify results prior and after the pull request.
-
-##### Changes/additions
-
-Backward compatible changes (refactoring, enhancements) or new target additions are considered to be part of the patch release.
-
-##### Features
-
-New features should initially be implemented on a separate branch in the Mbed OS repository. The naming convention for a feature branch is: "feature-".
-
-Each feature has a tech lead. This person is responsible for:
-
-- rebasing often to track master development
-- reviewing any addition to the feature branch (approval required by the feature owner or a person assigned to do instead)
-
 #### Guidelines for GitHub pull requests
 
 Pull requests on GitHub have to meet the following requirements to keep the code and commit history clean:
@@ -59,6 +38,27 @@ Pull requests on GitHub have to meet the following requirements to keep the code
 - All new features and enhancements require documentation, tests and user guides for us to accept them. Please link each pull request to all relevant documentation and testing pull requests.
 - Avoid merging commmits (use rebase if you could).
 - Pull requests shall fix a bug, add a feature or refactor but not a mixture.
+
+#### Pull request categories
+
+##### Bugfixes
+
+The last line in your commit message description should say “Fixes #deadbeef”, where “deadbeef” is the issue number in GitHub. This allows GitHub to automatically close the issue when the commit is merged into the default branch.
+
+Every bugfix should contain a test to verify results prior and after the pull request.
+
+##### Changes/additions
+
+Backward compatible changes (refactoring, enhancements) or new target additions are considered to be part of the patch release.
+
+##### Features
+
+New features should initially be implemented on a separate branch in the Mbed OS repository. The naming convention for a feature branch is: "feature-".
+
+Each feature has a tech lead. This person is responsible for:
+
+- rebasing often to track master development
+- reviewing any addition to the feature branch (approval required by the feature owner or a person assigned to do instead)
 
 #### Mbed OS maintainers
 
