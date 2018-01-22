@@ -126,7 +126,7 @@ Time: 3 days to respond to the review comments
 
 ##### Releases
 
-Once we merge a pull request, we tag it with a release. This is the release in which we first publish this pull request. For patch releases, we allow only bug fixes, new targets and enhancements to existing functionality. New features only go to feature releases.
+Once we merge a pull request, we tag it with a release (not applicable for feature pull requests). This is the release in which we first publish this pull request. For patch releases, we allow only bug fixes, new targets and enhancements to existing functionality. New features only go to feature releases.
 
 The release tag has the following format:
 
