@@ -18,11 +18,17 @@ Before submitting a bug report or a bug fix, please [discuss it on the forums](h
 
 All Mbed OS is on GitHub; please use GitHub's [issues mechanism](https://guides.github.com/features/issues/) to open a bug report directly against the relevant GitHub repository.
 
-##### Fixing bugs
+#### Pull request categories
 
-A member of the Mbed team must verify bug fixes before we pull the fixes into the main branch. You must therefore use GitHub to fork the repo and then submit a pull request with your changes.
+##### Bugfixes
 
 The last line in your commit message description should say “Fixes #deadbeef”, where “deadbeef” is the issue number in GitHub. This allows GitHub to automatically close the issue when the commit is merged into the default branch.
+
+Every bugfix should contain a test to verify results prior and after the pull request.
+
+##### Changes/additions
+
+Backward compatible changes (refactoring, enhancements) or new target additions are considered to be part of the patch release.
 
 ##### Features
 
