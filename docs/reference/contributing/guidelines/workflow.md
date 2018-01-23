@@ -8,7 +8,7 @@ The maintainers are a small group of Mbed OS engineers who are responsible for t
 
 Responsibilities:
 
-1. Check for CLA compliance.
+1. Check for CLA (Contributor License Agreement) compliance.
 1. Ensure the relevant stakeholders review pull requests.
 1. Guide contributors both technically and procedurally.
 1. Run pull requests through the CI systems.
