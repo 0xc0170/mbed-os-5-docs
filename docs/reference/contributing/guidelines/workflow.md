@@ -48,6 +48,8 @@ Please create separate pull requests for each concern; each pull request should 
 
 Before submitting a bug report or a bug fix, please [discuss it on the forums](https://os.mbed.com/forum/bugs-suggestions/) to avoid duplication of work, as we or others might be working on it already.
 
+The bug report requires a clear instructions how to reproduce it - describe everything in detail. Insufficient bug reports will be closed.
+
 All Mbed OS is on GitHub; please use GitHub's [issues mechanism](https://guides.github.com/features/issues/) to open a bug report directly against the relevant GitHub repository.
 
 #### Guidelines for GitHub pull requests
